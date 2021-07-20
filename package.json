@@ -14,7 +14,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "build": "apidoc -i router/ -o apidoc/",
+    "start":"node index"
+    
   },
   "author": "",
   "license": "ISC"
